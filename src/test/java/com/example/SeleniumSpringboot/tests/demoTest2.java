@@ -1,16 +1,12 @@
 package com.example.SeleniumSpringboot.tests;
 
-import com.example.SeleniumSpringboot.configs.WebDriverWaitConfig;
 import com.example.SeleniumSpringboot.pages.HomePage;
 import com.example.SeleniumSpringboot.pages.LoginPage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.testng.annotations.Test;
 
-public class demoTest extends SpringBaseTestNGTest {
+public class demoTest2 extends SpringBaseTestNGTest {
     @Value("${email}")
     String Email;
     @Value("${password}")

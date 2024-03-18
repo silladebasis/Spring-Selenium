@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Springboot Automation">
+        <classes>
+            <class name="com.example.SeleniumSpringboot.tests.demoTest"/>
+        </classes>
+    </test>
+    <test name="Springboot Automation 2">
+        <classes>
+            <class name="com.example.SeleniumSpringboot.tests.demoTest2"/>
+        </classes>
+    </test>
+</suite>
